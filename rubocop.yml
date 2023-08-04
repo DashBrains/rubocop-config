@@ -1,0 +1,79 @@
+require:
+  - rubocop-minitest
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-graphql
+  - rubocop-rspec
+  - rubocop-sorbet
+
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  NewCops: enable
+  TargetRubyVersion: <%= RUBY_VERSION[/\d+\.\d+/] %>
+  Exclude:
+    - "bin/*"
+    - db/schema.rb
+    - "node_modules/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+
+Layout/HashAlignment:
+  EnforcedColonStyle: table
+  EnforcedHashRocketStyle: table
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  EnforcedStyle: space
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 200
+  Exclude:
+    - 'spec/**/*.rb'
+    - 'db/seeds.rb'
+
+Metrics/ClassLength:
+  Max: 200
+  Exclude:
+    - "test/**/*"
+
+Metrics/MethodLength:
+  Max: 200
+  CountComments: false
+  Exclude:
+    - "db/migrate/*"
+    - "test/**/*"
+
+Metrics/ModuleLength:
+  Max: 200
+  Exclude:
+    - "app/libs/countries.rb"
+
+Naming/MemoizedInstanceVariableName:
+  EnforcedStyleForLeadingUnderscores: optional
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Style/StringLiterals:
+  EnforcedStyle: single_quotes
+  SupportedStyles:
+    - single_quotes
+    - double_quotes
+
+Layout/LineLength:
+  Max: 200
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Metrics/ParameterLists:
+  Max: 10
