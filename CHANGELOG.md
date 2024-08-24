@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/DashBrains/rubocop-config/compare/v1.0.1...v1.0.2) (2024-08-24)
+
+
+### Miscellaneous Chores
+
+* release 1.0.2 ([1c93338](https://github.com/DashBrains/rubocop-config/commit/1c93338614b9f0bad74b520305db93b6a119d16f))
+
 ## 1.0.1 (2024-08-24)
 
 
