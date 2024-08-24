@@ -80,3 +80,6 @@ Metrics/PerceivedComplexity:
 
 Metrics/ParameterLists:
   Max: 10
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
