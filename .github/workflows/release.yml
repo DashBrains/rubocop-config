@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-    check:
+  check:
     name: Run format & lint & build check
     uses: dashbrains/rubocop-config/.github/workflows/lint_format.yml@main
 
