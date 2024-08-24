@@ -6,7 +6,8 @@
   "groupName": "all dependencies",
   "groupSlug": "all",
   "lockFileMaintenance": {
-    "enabled": false
+    "enabled": false,
+    "automerge": true
   },
   "packageRules": [
     {
@@ -14,7 +15,8 @@
       "groupSlug": "all",
       "matchPackagePatterns": [
         "*"
-      ]
+      ],
+      "automerge": true
     }
   ],
   "separateMajorMinor": false
