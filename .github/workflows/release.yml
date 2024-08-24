@@ -15,6 +15,7 @@ jobs:
     needs: [ check ]
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v4
         id: release
