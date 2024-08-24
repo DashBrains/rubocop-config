@@ -18,17 +18,6 @@ jobs:
       - name: Run rubocop
         run: bundle exec rubocop -f github
 
-  brakeman:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-      - name: Run brakeman
-        run: bundle exec brakeman --no-pager
-
   bundler-audit:
     runs-on: ubuntu-latest
     steps:

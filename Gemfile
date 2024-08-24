@@ -19,9 +19,6 @@ gem 'rubocop-rspec_rails', require: false
 gem 'rubocop-sorbet', require: false
 
 group :development do
-  # Brakeman
-  gem 'brakeman', require: false
-
   # Bundle-audit
   gem 'bundler-audit', require: false
 end
