@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
+require_relative 'lib/dashbrains/rubocop/config/version'
+
 Gem::Specification.new do |spec|
   spec.name = 'dashbrains-rubocop-config'
-  spec.version = '1.0.0'
+  spec.version = Dashbrains::Rubocop::Config::VERSION
   spec.authors = ['DashBrains']
   spec.email = ['contact@dashbrains.dev']
 
@@ -24,12 +26,16 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0")
                      .reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
+  spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'rubocop'
-  spec.add_runtime_dependency 'rubocop-graphql'
-  spec.add_runtime_dependency 'rubocop-minitest'
-  spec.add_runtime_dependency 'rubocop-performance'
-  spec.add_runtime_dependency 'rubocop-rails'
-  spec.add_runtime_dependency  'rubocop-rspec'
-  spec.add_runtime_dependency  'rubocop-sorbet'
+  spec.add_dependency 'rubocop'
+  spec.add_dependency 'rubocop-capybara'
+  spec.add_dependency 'rubocop-factory_bot'
+  spec.add_dependency 'rubocop-graphql'
+  spec.add_dependency 'rubocop-minitest'
+  spec.add_dependency 'rubocop-performance'
+  spec.add_dependency 'rubocop-rails'
+  spec.add_dependency 'rubocop-rspec'
+  spec.add_dependency 'rubocop-rspec_rails'
+  spec.add_dependency 'rubocop-sorbet'
 end

@@ -5,6 +5,9 @@ require:
   - rubocop-graphql
   - rubocop-rspec
   - rubocop-sorbet
+  - rubocop-factory_bot
+  - rubocop-capybara
+  - rubocop-rspec_rails
 
 AllCops:
   DisplayCopNames: true
