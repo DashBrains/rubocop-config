@@ -1,6 +1,7 @@
 name: Format & Lint & Build & Analysis
 
 on:
+  merge_group:
   pull_request:
   workflow_dispatch:
   workflow_call:
