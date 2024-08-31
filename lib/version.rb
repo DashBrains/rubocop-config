@@ -4,7 +4,7 @@
 module Dashbrains
   module Rubocop
     module Config
-      VERSION = '1.0.3'
+      VERSION = '1.0.4'
     end
   end
 end
