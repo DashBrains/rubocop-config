@@ -17,6 +17,7 @@ gem 'rubocop-rails',  require: false
 gem 'rubocop-rspec',  require: false
 gem 'rubocop-rspec_rails', require: false
 gem 'rubocop-sorbet', require: false
+gem 'standard', require: false
 
 group :development do
   # Bundle-audit

@@ -8,6 +8,10 @@ require:
   - rubocop-factory_bot
   - rubocop-capybara
   - rubocop-rspec_rails
+  - standard
+
+inherit_gem:
+  standard: config/base.yml
 
 AllCops:
   DisplayCopNames: true
@@ -83,3 +87,28 @@ Metrics/ParameterLists:
 
 Gemspec/RequiredRubyVersion:
   Enabled: false
+
+Naming/BlockForwarding:
+  EnforcedStyle: explicit
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space
+
+Style/ArgumentsForwarding:
+  UseAnonymousForwarding: false
+
+Layout/ExtraSpacing:
+  Enabled: true
+  AllowForAlignment: true
+  AllowBeforeTrailingComments: true
+  ForceEqualSignAlignment: false
+
+Style/RescueStandardError:
+  EnforcedStyle: explicit
+
+Style/SingleLineMethods:
+  Enabled: true
+  AllowIfMethodIsEmpty: true
+
+Style/EmptyMethod:
+  EnforcedStyle: compact
