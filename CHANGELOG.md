@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/DashBrains/rubocop-config/compare/v1.0.4...v1.1.0) (2024-10-19)
+
+
+### Features
+
+* add standard ([4331be4](https://github.com/DashBrains/rubocop-config/commit/4331be4d46d6352969c33d77a3f059914de26c0f))
+
 ## [1.0.4](https://github.com/DashBrains/rubocop-config/compare/v1.0.3...v1.0.4) (2024-08-31)
 
 
