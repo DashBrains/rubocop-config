@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dashbrains-rubocop-config (1.0.6)
+    dashbrains-rubocop-config (1.0.7)
       rubocop
       rubocop-capybara
       rubocop-factory_bot
