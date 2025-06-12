@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/DashBrains/rubocop-config/compare/v1.0.6...v1.0.7) (2025-06-12)
+
+
+### Miscellaneous Chores
+
+* release 1.0.7 ([ac74218](https://github.com/DashBrains/rubocop-config/commit/ac74218aa78f5b2ef83893f7f6263d8914292e3e))
+
 ## [1.0.6](https://github.com/DashBrains/rubocop-config/compare/v1.1.0...v1.0.6) (2025-02-08)
 
 
