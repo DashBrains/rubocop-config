@@ -39,4 +39,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rubocop-rspec_rails'
   spec.add_dependency 'rubocop-sorbet'
   spec.add_dependency 'standard'
+  spec.add_dependency 'standard-rails'
+  spec.add_dependency 'standard-sorbet'
 end

@@ -18,6 +18,8 @@ gem 'rubocop-rspec',  require: false
 gem 'rubocop-rspec_rails', require: false
 gem 'rubocop-sorbet', require: false
 gem 'standard', require: false
+gem 'standard-rails', require: false
+gem 'standard-sorbet', require: false
 
 group :development do
   # Bundle-audit

@@ -1,14 +1,20 @@
 require:
+  - standard
+
+plugins:
   - rubocop-minitest
   - rubocop-performance
-  - rubocop-rails
+  #- rubocop-rails
   - rubocop-graphql
   - rubocop-rspec
-  - rubocop-sorbet
+  #- rubocop-sorbet
   - rubocop-factory_bot
   - rubocop-capybara
   - rubocop-rspec_rails
-  - standard
+  - standard-custom
+  - standard-performance
+  - standard-rails
+  - standard-sorbet
 
 inherit_gem:
   standard: config/base.yml
